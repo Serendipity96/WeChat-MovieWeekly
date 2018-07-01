@@ -1,0 +1,7 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /*改变主轴方向*/
+  justify-content: space-around;
+  align-items: center;
+}
