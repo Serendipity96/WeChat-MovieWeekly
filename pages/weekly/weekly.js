@@ -29,8 +29,7 @@ Page({
   },
   f0: function() {
     this.setData({
-      count: this.data.count + 1,
-      "weeklyMovieList[2].name" :"改名字"
+      currentIndex: this.data.weeklyMovieList.length - 1
     })
   }
 })
