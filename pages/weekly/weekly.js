@@ -38,8 +38,7 @@ Page({
   pageTurning:function(evevt){
     var movieId = evevt.currentTarget.dataset.movieId
     wx.navigateTo({
-      url: '/pages/detail/detail?id=movieId',
+      url: '/pages/detail/detail?id=' + movieId,
     })
-    console.log(movieId)
   }
 })
