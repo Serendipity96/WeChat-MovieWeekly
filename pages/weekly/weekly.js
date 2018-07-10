@@ -12,7 +12,7 @@ Page({
         comment: "mmm",
         imagePath: "/images/zljsj.jpg",
         isHighlyRecommended: true,
-        id: 77
+        id: 26416062
       },
       {
         name: "侏罗纪世界3",
@@ -40,5 +40,10 @@ Page({
     wx.navigateTo({
       url: '/pages/detail/detail?id=' + movieId,
     })
+  },
+  onShareAppMessage:function(){
+    return{
+      title:'每周推荐'
+    }
   }
 })
